@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/app_title"
+            android:textColor="@color/text_color"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/app_door"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:text="放风场控制"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/app_lift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:text="晾衣架控制"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/text_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="101"
+                        android:textColor="@color/main_background"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_one_door"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="150dp"
+                    android:background="@color/text_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="102"
+
+                        android:textColor="@color/main_background"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_two_door"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="150dp"
+                    android:background="@color/text_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+
+                        android:text="103"
+
+                        android:textColor="@color/main_background"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_three_door"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="101"
+                        android:textColor="@color/main_background"
+
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_one_lift"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="150dp"
+                    android:background="@color/text_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="102"
+                        android:textColor="@color/main_background"
+
+
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_two_lift"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="150dp"
+                    android:background="@color/text_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="103"
+                        android:textColor="@color/main_background"
+
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/textView_three_lift"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+
+                        android:layout_margin="15dp"
+                        android:background="@mipmap/close" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/open_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/app_open"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/close_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:enabled="false"
+                    android:text="@string/app_close"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/stop_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/app_stop"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/up_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+
+                    android:background="@color/main_background"
+                    android:text="@string/app_up"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/down_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+
+                    android:background="@color/main_background"
+                    android:text="@string/app_down"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/stop_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/app_stop"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/all_open_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_weight="1"
+
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_open"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/all_close_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_close"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/all_stop_door"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_stop"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/all_stop_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_stop"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/all_up_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_up"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/all_down_lift"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:background="@color/main_background"
+                    android:text="@string/all_app_down"
+                    android:textColor="@color/text_color" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/app_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/app_address"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
