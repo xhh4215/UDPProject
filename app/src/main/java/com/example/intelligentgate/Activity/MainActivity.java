@@ -213,8 +213,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     }
                 });
-                Toast.makeText(this, "上升", Toast.LENGTH_LONG).show();
-                textView_door_one.setBackground(getDrawable(R.mipmap.open));
+//                Toast.makeText(this, "上升", Toast.LENGTH_LONG).show();
+                textView_lift_one.setBackground(getDrawable(R.mipmap.open));
                 isOpen = true;
                 close_door.setEnabled(true);
                 open_door.setEnabled(false);
@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     }
                 });
-                textView_door_one.setBackground(getDrawable(R.mipmap.open));
+                textView_lift_one.setBackground(getDrawable(R.mipmap.close));
                 isOpen = false;
                 close_door.setEnabled(false);
                 open_door.setEnabled(true);
@@ -245,15 +245,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 });
                 if (isOpen) {
-                    textView_door_one.setBackground(getDrawable(R.mipmap.open));
+                    textView_lift_one.setBackground(getDrawable(R.mipmap.open));
 
                 } else {
-                    textView_door_one.setBackground(getDrawable(R.mipmap.close));
+                    textView_lift_one.setBackground(getDrawable(R.mipmap.close));
 
                 }
-                close_door.setText("下降");
-                open_door.setText("上升");
-                stop_door.setText("以停止");
                 break;
             case R.id.all_up_lift:
                 textView_lift_one.setBackground(getDrawable(R.mipmap.open));
@@ -268,6 +265,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.all_stop_lift:
+                if (isOpen) {
+                    textView_door_one.setBackground(getDrawable(R.mipmap.open));
+                    textView_door_two.setBackground(getDrawable(R.mipmap.open));
+                    textView_door_three.setBackground(getDrawable(R.mipmap.open));
+
+                } else {
+                    textView_door_one.setBackground(getDrawable(R.mipmap.close));
+                    textView_door_two.setBackground(getDrawable(R.mipmap.close));
+                    textView_door_three.setBackground(getDrawable(R.mipmap.close));
+                }
                 break;
             default:
                 break;

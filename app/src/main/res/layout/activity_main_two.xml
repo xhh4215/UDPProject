@@ -404,25 +404,14 @@
                     android:layout_height="wrap_content">
 
                     <Button
-                        android:id="@+id/all_stop_lift"
-                        android:layout_width="0dp"
-                        android:layout_height="50dp"
-
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:background="@color/main_background"
-                        android:text="@string/all_app_stop"
-                        android:textColor="@color/text_color" />
-
-                    <Button
                         android:id="@+id/all_up_lift"
                         android:layout_width="0dp"
                         android:layout_height="50dp"
-                        android:layout_margin="10dp"
+                        android:text="@string/all_app_up"
 
+                        android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:background="@color/main_background"
-                        android:text="@string/all_app_up"
                         android:textColor="@color/text_color" />
 
                     <Button
@@ -430,10 +419,23 @@
                         android:layout_width="0dp"
                         android:layout_height="50dp"
                         android:layout_margin="10dp"
-                        android:layout_marginRight="50dp"
+
                         android:layout_weight="1"
                         android:background="@color/main_background"
                         android:text="@string/all_app_down"
+
+                        android:textColor="@color/text_color" />
+
+                    <Button
+                        android:id="@+id/all_stop_lift"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/main_background"
+                        android:text="@string/all_app_stop"
+
                         android:textColor="@color/text_color" />
 
                 </LinearLayout>
