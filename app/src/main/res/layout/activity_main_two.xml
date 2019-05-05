@@ -8,7 +8,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
         android:gravity="center_horizontal">
 
         <TextView
@@ -88,13 +87,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:layout_margin="10dp"
                     android:gravity="center_horizontal"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
+                        android:layout_margin="5dp"
                         android:gravity="center_horizontal"
                         android:text="101"
                         android:textColor="@color/main_background"
@@ -102,9 +102,9 @@
 
                     <ImageView
                         android:id="@+id/textView_one_door"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="15dp"
+                        android:layout_width="70dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
                         android:background="@mipmap/close" />
 
                 </LinearLayout>
@@ -114,14 +114,15 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
+                    android:layout_margin="10dp"
 
                     android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
+                        android:layout_margin="5dp"
                         android:gravity="center_horizontal"
                         android:text="102"
 
@@ -130,10 +131,10 @@
 
                     <ImageView
                         android:id="@+id/textView_two_door"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
+                        android:layout_width="70dp"
+                        android:layout_height="120dp"
 
-                        android:layout_margin="15dp"
+                        android:layout_margin="5dp"
                         android:background="@mipmap/close" />
 
                 </LinearLayout>
@@ -143,33 +144,32 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
+                    android:layout_margin="10dp"
 
                     android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
+                        android:layout_margin="5dp"
                         android:gravity="center_horizontal"
-
                         android:text="103"
-
                         android:textColor="@color/main_background"
                         android:textSize="20sp" />
 
                     <ImageView
                         android:id="@+id/textView_three_door"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
+                        android:layout_width="70dp"
+                        android:layout_height="120dp"
 
-                        android:layout_margin="15dp"
+                        android:layout_margin="5dp"
                         android:background="@mipmap/close" />
                 </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_margin="50dp"
+                android:layout_margin="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -181,7 +181,7 @@
                     <Button
                         android:id="@+id/open_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:background="@color/main_background"
@@ -191,7 +191,7 @@
                     <Button
                         android:id="@+id/close_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
 
                         android:layout_weight="1"
@@ -203,7 +203,7 @@
                     <Button
                         android:id="@+id/stop_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
 
                         android:layout_weight="1"
@@ -220,7 +220,7 @@
                     <Button
                         android:id="@+id/all_open_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
                         android:layout_marginLeft="50dp"
                         android:layout_weight="1"
@@ -232,7 +232,7 @@
                     <Button
                         android:id="@+id/all_close_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
 
                         android:layout_weight="1"
@@ -243,7 +243,7 @@
                     <Button
                         android:id="@+id/all_stop_door"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
 
                         android:layout_weight="1"
@@ -261,7 +261,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/door_background"
-
             android:orientation="vertical">
 
             <LinearLayout
@@ -271,27 +270,24 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
+                    android:layout_margin="10dp"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-
                     android:layout_weight="1"
                     android:orientation="vertical">
-
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
                         android:gravity="center_horizontal"
                         android:text="101"
+                        android:layout_margin="5dp"
                         android:textColor="@color/main_background"
-
                         android:textSize="20sp" />
-
                     <ImageView
                         android:id="@+id/textView_one_lift"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="15dp"
+                        android:layout_width="70dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="5dp"
                         android:background="@mipmap/close" />
                 </LinearLayout>
 
@@ -300,6 +296,8 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
+                    android:layout_margin="10dp"
+
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
 
@@ -307,21 +305,22 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
                         android:gravity="center_horizontal"
                         android:text="102"
                         android:textColor="@color/main_background"
+                        android:layout_margin="5dp"
 
 
                         android:textSize="20sp" />
 
                     <ImageView
                         android:id="@+id/textView_two_lift"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
-                        android:layout_margin="15dp"
+                        android:layout_width="70dp"
+                        android:layout_margin="5dp"
+
+                        android:layout_height="120dp"
                         android:background="@mipmap/close" />
 
                 </LinearLayout>
@@ -329,6 +328,7 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
+                    android:layout_margin="10dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
@@ -336,10 +336,10 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="50dp"
                         android:layout_height="wrap_content"
-                        android:layout_margin="15dp"
                         android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
                         android:text="103"
                         android:textColor="@color/main_background"
 
@@ -347,10 +347,10 @@
 
                     <ImageView
                         android:id="@+id/textView_three_lift"
-                        android:layout_width="100dp"
-                        android:layout_height="150dp"
+                        android:layout_width="70dp"
+                        android:layout_margin="5dp"
 
-                        android:layout_margin="15dp"
+                        android:layout_height="120dp"
                         android:background="@mipmap/close" />
                 </LinearLayout>
             </LinearLayout>
@@ -358,7 +358,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_margin="50dp"
+                android:layout_margin="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -368,10 +368,9 @@
                     <Button
                         android:id="@+id/up_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
-                        android:layout_margin="10dp"
+                        android:layout_height="35dp"
                         android:layout_weight="1"
-
+                        android:layout_margin="10dp"
                         android:background="@color/main_background"
                         android:text="@string/app_up"
                         android:textColor="@color/text_color" />
@@ -379,9 +378,9 @@
                     <Button
                         android:id="@+id/down_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
-                        android:layout_margin="10dp"
+                        android:layout_height="35dp"
                         android:layout_weight="1"
+                        android:layout_margin="10dp"
 
                         android:background="@color/main_background"
                         android:text="@string/app_down"
@@ -390,9 +389,10 @@
                     <Button
                         android:id="@+id/stop_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
-                        android:layout_margin="10dp"
+                        android:layout_height="35dp"
                         android:layout_weight="1"
+                        android:layout_margin="10dp"
+
                         android:background="@color/main_background"
                         android:text="@string/app_stop"
                         android:textColor="@color/text_color" />
@@ -406,10 +406,10 @@
                     <Button
                         android:id="@+id/all_up_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
                         android:text="@string/all_app_up"
 
-                        android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:background="@color/main_background"
                         android:textColor="@color/text_color" />
@@ -417,8 +417,9 @@
                     <Button
                         android:id="@+id/all_down_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
+                        android:layout_height="35dp"
                         android:layout_margin="10dp"
+
 
                         android:layout_weight="1"
                         android:background="@color/main_background"
@@ -429,10 +430,11 @@
                     <Button
                         android:id="@+id/all_stop_lift"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"
-                        android:layout_margin="10dp"
+                        android:layout_height="35dp"
                         android:layout_marginRight="50dp"
                         android:layout_weight="1"
+                        android:layout_margin="10dp"
+
                         android:background="@color/main_background"
                         android:text="@string/all_app_stop"
 

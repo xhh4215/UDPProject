@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">IntelligentGate</string>
     <string name="app_title">智能监所控制系统</string>
-    <string name="app_address">山东道图科技有限公司</string>
-    <string name="app_open">开门</string>
-    <string name="all_app_open">全开门</string>
-    <string name="app_close">关门</string>
-    <string name="all_app_close">全关门</string>
-    <string name="app_stop">停止</string>
-    <string name="all_app_stop">全停止</string>
-    <string name="app_up">上升</string>
-    <string name="all_app_up">全上升</string>
-    <string name="app_down">下降</string>
-    <string name="all_app_down">全下降</string>
+    <string name="app_address">山东道图信息科技有限公司</string>
+    <string name="app_open">开</string>
+    <string name="all_app_open">全开</string>
+    <string name="app_close">关</string>
+    <string name="all_app_close">全关</string>
+    <string name="app_stop">停</string>
+    <string name="all_app_stop">全停</string>
+    <string name="app_up">升</string>
+    <string name="all_app_up">全升</string>
+    <string name="app_down">降</string>
+    <string name="all_app_down">全降</string>
 </resources>
